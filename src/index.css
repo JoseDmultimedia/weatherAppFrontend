@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Adding the background image giving as an element of the test */
+  background-image: url("./img/imgs/gradient.png");
+  background-position: center;
+  background-size: cover;
 }
 
 code {
