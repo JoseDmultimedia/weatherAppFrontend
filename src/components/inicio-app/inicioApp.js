@@ -3,7 +3,7 @@ import React from 'react'
 function inicioApp() {
     return (
         <div>
-            
+            Hola mundo
         </div>
     )
 }

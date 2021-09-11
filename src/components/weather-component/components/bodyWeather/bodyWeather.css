@@ -1,14 +1,73 @@
 .o-container-body{
     width: 20vw;
-    height: 20vh;
-    background-color: rgba(0, 255, 255, 0.185);
+    height: 21vh;
 }
 
 .o-title-body-container{
     display: flex;
+    height: 2.5vh;
+    width: 10vw;
+    background: linear-gradient(to bottom, #8f5aef, #2d18a6);
+    margin-bottom: 1rem;
+    border-radius: 0rem 1rem 0rem 0rem;
 }
 
 .o-body-text-container{
     display: flex;
-    height: 15vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 17.5vh;
+    background-color: #ffff;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    padding-bottom: 1rem ;  
+}
+
+.o-title-text-body{
+    margin: 0rem;
+    color: #ffff;
+}
+
+.o-title-text-body-first{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.o-title-text-body-second{
+    margin-left: .5rem;
+}
+
+.o-items-body{
+    margin: 0rem;
+    color: #606060;
+    font-size: small;
+    padding-top: 0.2em;
+}
+
+.o-item-datos{
+    margin-right: 1rem;
+}
+
+.o-items-body-left{
+    margin-left: .3rem;
+}
+
+.o-img-temp{
+    width: 25px;
+}
+
+.o-container-details{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.o-container-all-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.o-line{
+    height: .1px;
+    width: 18vw;
+    background-color: #7c7c7c;
+    border-top: 1px;
 }
