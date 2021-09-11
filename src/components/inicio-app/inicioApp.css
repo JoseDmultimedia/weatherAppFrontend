@@ -1,0 +1,47 @@
+.o-inicio-card{
+    width: 25vw;
+    height: 30vh;
+
+    background-color: rgba(17, 25, 40, 0.568);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+
+    color: #ffff;
+}
+
+.o-text-inicio{
+    margin: 0rem;
+}
+
+.o-input-inicio{
+    background-color: rgb(39, 31, 31);
+    border: none;
+    color: #ffff;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.o-input-inicio:focus{
+    outline: solid white 1px;
+}
+
+.o-btn-inicio{
+    background-color: black;
+    color: #ffff;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+}
+
+.o-btn-inicio:hover{
+    background-color: #754ddd;
+}
