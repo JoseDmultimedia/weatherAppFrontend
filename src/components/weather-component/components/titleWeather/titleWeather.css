@@ -1,0 +1,31 @@
+
+/* Se agregan variables para el control del color y el margin de algunos elementos */
+:root{
+    --color-text: #252388;
+    --margin-text: 0rem;
+}
+
+.o-container-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.o-city{
+    margin: var(--margin-text);
+    color: var(--color-text);
+    background: linear-gradient(to right,rgba(255, 255, 255, 0), #eadade, rgba(255, 255, 255, 0));
+}
+
+.o-date{
+    margin: var(--margin-text);
+    color: var(--color-text);
+}
+
+.o-temp{
+    margin: var(--margin-text);
+    color: var(--color-text);
+}
