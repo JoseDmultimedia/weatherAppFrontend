@@ -1,0 +1,29 @@
+.o-container-all-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.o-container-details {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.o-img-temp {
+  width: 25px;
+}
+
+.o-items-body {
+  margin: 0rem;
+  color: #606060;
+  font-size: small;
+  padding-top: 0.2em;
+}
+
+.o-items-body-left {
+  margin-left: 0.3rem;
+}
+
+.o-item-datos {
+  margin-right: 1rem;
+}

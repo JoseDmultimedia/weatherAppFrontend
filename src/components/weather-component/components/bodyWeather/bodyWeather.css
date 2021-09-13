@@ -1,73 +1,70 @@
-.o-container-body{
-    width: 20vw;
-    height: 21vh;
+.o-container-body {
+  width: 20vw;
+  height: 21vh;
 }
 
-.o-title-body-container{
-    display: flex;
-    height: 2.5vh;
-    width: 10vw;
-    background: linear-gradient(to bottom, #8f5aef, #2d18a6);
-    margin-bottom: 1rem;
-    border-radius: 0rem 1rem 0rem 0rem;
+.o-title-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 2.5vh;
+  width: 10vw;
+  background: linear-gradient(to bottom, #8f5aef, #2d18a6);
+  margin-bottom: 1rem;
+  border-radius: 0rem 1rem 0rem 0rem;
 }
 
-.o-body-text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 17.5vh;
-    background-color: #ffff;
-    border-radius: 0rem 0rem 1.5rem 1.5rem;
-    padding-bottom: 1rem ;  
+.o-body-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 17.5vh;
+  background-color: #ffff;
+  border-radius: 0rem 0rem 1.5rem 1.5rem;
+  padding-bottom: 1rem;
 }
 
-.o-title-text-body{
-    margin: 0rem;
-    color: #ffff;
+.o-title-text-body {
+  margin: 0rem;
+  color: #ffff;
 }
 
-.o-title-text-body-first{
-    margin-left: 1rem;
-    font-weight: bold;
+.o-title-text-body-first {
+  margin-left: 1rem;
+  font-weight: bold;
 }
 
-.o-title-text-body-second{
-    margin-left: .5rem;
+.o-title-text-body-second {
+  margin-left: 0.5rem;
 }
 
-.o-items-body{
-    margin: 0rem;
-    color: #606060;
-    font-size: small;
-    padding-top: 0.2em;
+.o-line {
+  height: 0.1px;
+  width: 18vw;
+  background-color: #7c7c7c;
+  border-top: 1px;
 }
 
-.o-item-datos{
-    margin-right: 1rem;
-}
+@media only screen and (max-width: 700px) {
+    .o-container-body{
+        width: 55vw;
+        height: 23.5vh;
+    }
 
-.o-items-body-left{
-    margin-left: .3rem;
-}
+    .o-title-body-container{
+        width: 30vw;
+        height: 2.5vh;
+        font-size: small;
+        margin-bottom: 0rem;
+    }
 
-.o-img-temp{
-    width: 25px;
-}
+    .o-body-text-container{
+        font-size: 10px;
+        height: 17.5vh;
+        padding-bottom: 1.5rem;
+    }
 
-.o-container-details{
-    display: flex;
-    margin-left: 1rem;
-}
-
-.o-container-all-details{
-    display: flex;
-    justify-content: space-between;
-}
-
-.o-line{
-    height: .1px;
-    width: 18vw;
-    background-color: #7c7c7c;
-    border-top: 1px;
+    .o-line {
+        width: 45.5vw;
+    }
 }
