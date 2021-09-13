@@ -21,7 +21,7 @@ function InicioApp() {
             
         }else{
             setError("Key invalida");
-            console.log(key, "algo");
+            console.log(key);
         }
     }
 
