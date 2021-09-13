@@ -15,7 +15,7 @@ function App() {
           <Route exact path="/">
             <InicioComponent></InicioComponent>
           </Route>
-          <Route path="/weather">
+          <Route exact path="/weather">
             <WeatherComponent></WeatherComponent>
           </Route>
         </Switch>

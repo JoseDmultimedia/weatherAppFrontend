@@ -9,7 +9,7 @@ const DetailsBody = (props) => {
         <img src={img} alt={variable} className="o-img-temp"></img>
         <p className="o-items-body o-items-body-left">{variable}</p>
       </div>
-      <p className="o-items-body o-item-datos">Datos {datos}</p>
+      <p className="o-items-body o-item-datos">{datos}</p>
     </div>
   );
 };

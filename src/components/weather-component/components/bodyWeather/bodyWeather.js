@@ -13,11 +13,11 @@ const BodyWeather = (props) => {
                 <p className="o-title-text-body o-title-text-body-first">Clima/</p><p className="o-title-text-body o-title-text-body-second"> Datos</p>
             </div>
             <div className="o-body-text-container">
-                <DetailsBody img={imgTemp} variable="Temperatura" datos={temp}/>
+                <DetailsBody img={imgTemp} variable="Temperatura" datos={temp + "°"}/>
                 <hr className="o-line"/>
-                <DetailsBody img={imgWind} variable="Húmedad" datos={humedad}/>
+                <DetailsBody img={imgWind} variable="Húmedad" datos={humedad + "%"}/>
                 <hr className="o-line"/>     
-                <DetailsBody img={imgHum} variable="Velocidad Viento" datos={velocidad}/>  
+                <DetailsBody img={imgHum} variable="Velocidad Viento" datos={velocidad + "m/s"}/>  
             </div>
         </div>
     )
